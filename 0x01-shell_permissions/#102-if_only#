@@ -1,0 +1,4 @@
+#!/bin/bash
+
+[ "$(stat -c %U hello)" = "guillaume" ] || exit
+chown betty hello
